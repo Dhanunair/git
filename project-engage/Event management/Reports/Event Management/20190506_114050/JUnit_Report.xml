@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Event Management" time="125" tests="2" failures="0" errors="0">
+   <testsuite name="Event Management" tests="2" failures="0" errors="0" time="125" timestamp="2019-05-06 11:41:53" hostname="dche0053 - MU00138930.AD.MONASH.EDU" id="Test Suites/Event Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190506_114050"/>
+         <property name="logFiles" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190506_114050\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dche0053 - MU00138930.AD.MONASH.EDU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="169.254.215.218"/>
+         <property name="sessionId" value="2e73454e0e49d89e3c6f2d6f1d9f18fd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login to uncrm" classname="Test Cases/Login to uncrm" status="PASSED">
+         <system-out><![CDATA[2019-05-06 11:41:59 - [TEST_CASE][PASSED] - Test Cases/Login to uncrm: Test Cases/Login to uncrm
+
+2019-05-06 11:42:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 11:42:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 11:42:28 - [MESSAGE][INFO] - User set preference: ['args', '[�disable-notifications]']
+
+2019-05-06 11:42:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-06 11:42:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 11:42:53 - [TEST_STEP][PASSED] - navigateToUrl("https://unicrm--engageuat.my.salesforce.com/"): Navigate to 'https://unicrm--engageuat.my.salesforce.com/' successfully
+
+2019-05-06 11:42:58 - [MESSAGE][PASSED] - Navigate to 'https://unicrm--engageuat.my.salesforce.com/' successfully
+
+2019-05-06 11:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login  Salesforce/input_Username_username"), "eventsadmin@monash.edu.engageuat"): Text 'eventsadmin@monash.edu.engageuat' is set on object 'Object Repository/Page_Login  Salesforce/input_Username_username'
+
+2019-05-06 11:42:59 - [MESSAGE][PASSED] - Text 'eventsadmin@monash.edu.engageuat' is set on object 'Object Repository/Page_Login  Salesforce/input_Username_username'
+
+2019-05-06 11:42:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login  Salesforce/input_Password_pw"), "VWz9qj7gPNou+AqqE2IZfg=="): Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2019-05-06 11:42:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2019-05-06 11:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2019-05-06 11:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2019-05-06 11:43:03 - [TEST_STEP][PASSED] - waitForPageLoad(6): Wait for page load successfully
+
+2019-05-06 11:43:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-06 11:43:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-06 11:43:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 11:43:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Home  Salesforce/span_Campaigns"), 0): Object 'Object Repository/Page_Home  Salesforce/span_Campaigns' is clickable
+
+2019-05-06 11:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 11:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home  Salesforce/span_Campaigns' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create event" classname="Test Cases/Create event" status="PASSED">
+         <system-out><![CDATA[2019-05-06 11:43:12 - [TEST_CASE][PASSED] - Test Cases/Create event: Test Cases/Create event
+
+2019-05-06 11:43:25 - [TEST_STEP][PASSED] - navigateToUrl("https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent", STOP_ON_FAILURE): Navigate to 'https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent' successfully
+
+2019-05-06 11:43:27 - [MESSAGE][PASSED] - Navigate to 'https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent' successfully
+
+2019-05-06 11:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/div_New (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/div_New (1)' is clicked on
+
+2019-05-06 11:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/div_New (1)' is clicked on
+
+2019-05-06 11:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-06 11:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-06 11:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-06 11:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-06 11:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)' is clicked on
+
+2019-05-06 11:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)' is clicked on
+
+2019-05-06 11:43:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)"), "Automated Test Campaign"): Text 'Automated Test Campaign' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)'
+
+2019-05-06 11:43:34 - [MESSAGE][PASSED] - Text 'Automated Test Campaign' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)'
+
+2019-05-06 11:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_Status")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_Status' is clicked on
+
+2019-05-06 11:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_Status' is clicked on
+
+2019-05-06 11:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Planned")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Planned' is clicked on
+
+2019-05-06 11:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Planned' is clicked on
+
+2019-05-06 11:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_group")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_group' is clicked on
+
+2019-05-06 11:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_group' is clicked on
+
+2019-05-06 11:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Alumni")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Alumni' is clicked on
+
+2019-05-06 11:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Alumni' is clicked on
+
+2019-05-06 11:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)"), "21 welington rd"): Text '21 welington rd' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)'
+
+2019-05-06 11:43:35 - [MESSAGE][PASSED] - Text '21 welington rd' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)'
+
+2019-05-06 11:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Start_date"), "27/06/2019"): Text '27/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start_date'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text '27/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start_date'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Start time (1)"), ""): Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start time (1)'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start time (1)'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)"), "30/06/2019"): Text '30/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text '30/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)"), ""): Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_street (1)"), "street"): Text 'street' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_street (1)'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text 'street' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_street (1)'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_city (1)"), "city"): Text 'city' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_city (1)'
+
+2019-05-06 11:43:36 - [MESSAGE][PASSED] - Text 'city' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_city (1)'
+
+2019-05-06 11:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_state (1)"), "state"): Text 'state' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_state (1)'
+
+2019-05-06 11:43:37 - [MESSAGE][PASSED] - Text 'state' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_state (1)'
+
+2019-05-06 11:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__4091117a"), "3000"): Text '3000' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4091117a'
+
+2019-05-06 11:43:37 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4091117a'
+
+2019-05-06 11:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__4431117a"), "Australia"): Text 'Australia' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4431117a'
+
+2019-05-06 11:43:37 - [MESSAGE][PASSED] - Text 'Australia' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4431117a'
+
+2019-05-06 11:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Corporate")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Corporate' is clicked on
+
+2019-05-06 11:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Corporate' is clicked on
+
+2019-05-06 11:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Social")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Social' is clicked on
+
+2019-05-06 11:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Social' is clicked on
+
+2019-05-06 11:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/button_Save")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/button_Save' is clicked on
+
+2019-05-06 11:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/button_Save' is clicked on
+
+2019-05-06 11:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/a_New (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_New (1)' is clicked on
+
+2019-05-06 11:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_New (1)' is clicked on
+
+2019-05-06 11:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)' is clicked on
+
+2019-05-06 11:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)' is clicked on
+
+2019-05-06 11:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/span_Next (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_Next (1)' is clicked on
+
+2019-05-06 11:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_Next (1)' is clicked on
+
+2019-05-06 11:43:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automated Test Campaign  Salesforce/input__1362495a (1)"), "Automated Guest List"): Text 'Automated Guest List' is set on object 'Object Repository/Page_Automated Test Campaign  Salesforce/input__1362495a (1)'
+
+2019-05-06 11:43:44 - [MESSAGE][PASSED] - Text 'Automated Guest List' is set on object 'Object Repository/Page_Automated Test Campaign  Salesforce/input__1362495a (1)'
+
+2019-05-06 11:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/button_Save (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Save (1)' is clicked on
+
+2019-05-06 11:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Save (1)' is clicked on
+
+2019-05-06 11:43:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-05-06 11:43:55 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-06 11:41:53 - [TEST_SUITE][PASSED] - Event Management: Test Cases/Create event]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

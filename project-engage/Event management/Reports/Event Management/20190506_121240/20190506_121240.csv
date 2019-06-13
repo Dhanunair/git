@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Event Management,,,2019-05-06 12:13:40,2019-05-06 12:15:23,1m - 43.026s,FAILED
+,,,,,,
+Test Cases/Login to unicrm,,,2019-05-06 12:13:47,2019-05-06 12:14:16,29.723s,FAILED
+"openBrowser("""")",,Open browser,2019-05-06 12:14:05,2019-05-06 12:14:16,10.903s,FAILED
+,,,,,,
+Test Cases/Create event,,,2019-05-06 12:14:16,2019-05-06 12:14:33,16.462s,FAILED
+"navigateToUrl(""https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent"", STOP_ON_FAILURE)",,,2019-05-06 12:14:33,2019-05-06 12:14:33,0.255s,FAILED
+,,,,,,
+Test Cases/Create Guest list,,,2019-05-06 12:14:33,2019-05-06 12:14:49,15.639s,FAILED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/a_New (1)""))",,,2019-05-06 12:14:47,2019-05-06 12:14:49,1.407s,FAILED
+,,,,,,
+Test Cases/Add Guests,,,2019-05-06 12:14:49,2019-05-06 12:15:01,11.635s,FAILED
+"waitForElementVisible(findTestObject(""Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)""), 20)",,,2019-05-06 12:15:00,2019-05-06 12:15:01,0.408s,FAILED
+,,,,,,
+Test Cases/Create Event and Guest list in Zkipster,,,2019-05-06 12:15:01,2019-05-06 12:15:21,20.466s,FAILED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster""))",,,2019-05-06 12:15:21,2019-05-06 12:15:21,0.145s,FAILED

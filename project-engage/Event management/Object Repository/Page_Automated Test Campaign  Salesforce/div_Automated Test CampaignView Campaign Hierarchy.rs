@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Automated Test CampaignView Campaign Hierarchy</name>
+   <tag></tag>
+   <elementGuidId>ccd1319a-1611-463a-8311-62d8bac4f721</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='brandBand_1']/div/div/div[2]/div/div/div/div/header/div[2]/div/div/div[2]/h1/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>testonly-outputNameWithHierarchyIcon sfaOutputNameWithHierarchyIcon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>1972:0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-class</name>
+      <type>Main</type>
+      <value>sfaOutputNameWithHierarchyIcon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Automated Test CampaignView Campaign Hierarchy</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/div[@class=&quot;flexipagePage oneRecordHomeFlexipage&quot;]/div[@class=&quot;flexipageBaseRecordHomeTemplateDesktop flexipageRecordHomeLeftSidebarTemplateDesktop&quot;]/div[@class=&quot;row region-header&quot;]/div[@class=&quot;flexipageComponent&quot;]/header[@class=&quot;forceHighlightsPanel&quot;]/div[@class=&quot;slds-page-header slds-page-header_record-home s1FixedTop forceHighlightsStencilDesktop forceRecordLayout&quot;]/div[@class=&quot;slds-grid primaryFieldRow&quot;]/div[@class=&quot;slds-grid slds-col slds-has-flexi-truncate slds-media--center&quot;]/div[@class=&quot;slds-media__body&quot;]/h1[1]/div[@class=&quot;slds-page-header__title slds-m-right--small slds-truncate slds-align-middle&quot;]/div[@class=&quot;testonly-outputNameWithHierarchyIcon sfaOutputNameWithHierarchyIcon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='brandBand_1']/div/div/div[2]/div/div/div/div/header/div[2]/div/div/div[2]/h1/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[16]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/h1/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

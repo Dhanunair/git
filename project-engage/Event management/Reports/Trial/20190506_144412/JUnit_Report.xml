@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Trial" time="34" tests="2" failures="0" errors="0">
+   <testsuite name="Trial" tests="2" failures="0" errors="0" time="34" timestamp="2019-05-06 14:45:14" hostname="dche0053 - MU00138930.AD.MONASH.EDU" id="Test Suites/Trial">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Trial\\20190506_144412"/>
+         <property name="logFiles" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Trial\\20190506_144412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dche0053 - MU00138930.AD.MONASH.EDU"/>
+         <property name="hostAddress" value="169.254.215.218"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/trial1" classname="Test Cases/trial1" status="PASSED">
+         <system-out><![CDATA[2019-05-06 14:45:20 - [TEST_CASE][PASSED] - Test Cases/trial1: Test Cases/trial1
+
+2019-05-06 14:45:36 - [TEST_STEP][PASSED] - name = "hello dhanu": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/trial 2" classname="Test Cases/trial 2" status="PASSED">
+         <system-out><![CDATA[2019-05-06 14:45:36 - [TEST_CASE][PASSED] - Test Cases/trial 2: Test Cases/trial 2
+
+2019-05-06 14:45:47 - [TEST_STEP][PASSED] - print(name): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-06 14:45:14 - [TEST_SUITE][PASSED] - Trial: Test Cases/trial 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

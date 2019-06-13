@@ -1,0 +1,95 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Event Management,Chrome 73.0.3683.103,,2019-05-06 15:08:39,2019-05-06 15:13:26,4m - 46.297s,PASSED
+,,,,,,
+Test Cases/Login to unicrm,Chrome 73.0.3683.103,,2019-05-06 15:08:49,2019-05-06 15:10:19,1m - 30.605s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,Open browser,2019-05-06 15:09:09,2019-05-06 15:09:52,43.652s,PASSED
+"navigateToUrl(""https://unicrm--engageuat.my.salesforce.com/"")",Chrome 73.0.3683.103,,2019-05-06 15:09:52,2019-05-06 15:10:01,8.129s,PASSED
+"setText(findTestObject(""Page_Login  Salesforce/input_Username_username""), ""eventsadmin@monash.edu.engageuat"")",Chrome 73.0.3683.103,,2019-05-06 15:10:01,2019-05-06 15:10:03,2.715s,PASSED
+"setEncryptedText(findTestObject(""Page_Login  Salesforce/input_Password_pw""), ""VWz9qj7gPNou+AqqE2IZfg=="")",Chrome 73.0.3683.103,,2019-05-06 15:10:03,2019-05-06 15:10:04,1.070s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/input_Password_Login""))",Chrome 73.0.3683.103,,2019-05-06 15:10:04,2019-05-06 15:10:09,4.598s,PASSED
+waitForPageLoad(6),Chrome 73.0.3683.103,,2019-05-06 15:10:09,2019-05-06 15:10:17,7.754s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-05-06 15:10:17,2019-05-06 15:10:18,1.390s,PASSED
+"waitForElementClickable(findTestObject(""Page_Home  Salesforce/span_Campaigns""), 0)",Chrome 73.0.3683.103,,2019-05-06 15:10:18,2019-05-06 15:10:19,1.106s,PASSED
+,,,,,,
+Test Cases/Create event,Chrome 73.0.3683.103,,2019-05-06 15:10:19,2019-05-06 15:10:46,26.287s,PASSED
+"navigateToUrl(""https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent"", STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-05-06 15:10:32,2019-05-06 15:10:33,0.986s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/div_New (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:33,2019-05-06 15:10:36,3.478s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:36,2019-05-06 15:10:38,1.882s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:38,2019-05-06 15:10:38,0.268s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:38,2019-05-06 15:10:39,0.188s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)""), ""Automated Test Campaign"")",Chrome 73.0.3683.103,,2019-05-06 15:10:39,2019-05-06 15:10:40,1.417s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Event_Status""))",Chrome 73.0.3683.103,,2019-05-06 15:10:40,2019-05-06 15:10:40,0.146s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Planned""))",Chrome 73.0.3683.103,,2019-05-06 15:10:40,2019-05-06 15:10:40,0.168s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Event_group""))",Chrome 73.0.3683.103,,2019-05-06 15:10:40,2019-05-06 15:10:40,0.171s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/a_Alumni""))",Chrome 73.0.3683.103,,2019-05-06 15:10:40,2019-05-06 15:10:41,0.165s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)""), ""21 welington rd"")",Chrome 73.0.3683.103,,2019-05-06 15:10:41,2019-05-06 15:10:41,0.221s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Start_date""), ""27/06/2019"")",Chrome 73.0.3683.103,,2019-05-06 15:10:41,2019-05-06 15:10:41,0.262s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Start time (1)""), """")",Chrome 73.0.3683.103,,2019-05-06 15:10:41,2019-05-06 15:10:41,0.148s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)""), ""30/06/2019"")",Chrome 73.0.3683.103,,2019-05-06 15:10:41,2019-05-06 15:10:42,0.229s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)""), """")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:42,0.114s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/event_street (1)""), ""street"")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:42,0.180s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/event_city (1)""), ""city"")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:42,0.164s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/event_state (1)""), ""state"")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:42,0.173s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/input__4091117a""), ""3000"")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:42,0.213s,PASSED
+"setText(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/input__4431117a""), ""Australia"")",Chrome 73.0.3683.103,,2019-05-06 15:10:42,2019-05-06 15:10:43,0.202s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/a_Corporate""))",Chrome 73.0.3683.103,,2019-05-06 15:10:43,2019-05-06 15:10:43,0.158s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/a_Social""))",Chrome 73.0.3683.103,,2019-05-06 15:10:43,2019-05-06 15:10:43,0.161s,PASSED
+"click(findTestObject(""Page_Recently Viewed  Campaigns  Salesforce/button_Save""))",Chrome 73.0.3683.103,,2019-05-06 15:10:43,2019-05-06 15:10:43,0.145s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-05-06 15:10:43,2019-05-06 15:10:46,2.622s,PASSED
+,,,,,,
+Test Cases/Create Guest list,Chrome 73.0.3683.103,,2019-05-06 15:10:46,2019-05-06 15:11:10,23.880s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/a_New (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:57,2019-05-06 15:10:57,0.222s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:57,2019-05-06 15:10:57,0.691s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/span_Next (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:57,2019-05-06 15:10:58,0.222s,PASSED
+"setText(findTestObject(""Page_Automated Test Campaign  Salesforce/input__1362495a (1)""), ""Automated Guest List"")",Chrome 73.0.3683.103,,2019-05-06 15:10:58,2019-05-06 15:10:59,1.731s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/button_Save (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:10:59,2019-05-06 15:11:00,0.178s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-05-06 15:11:00,2019-05-06 15:11:10,10.031s,PASSED
+,,,,,,
+Test Cases/Add Guests,Chrome 73.0.3683.103,,2019-05-06 15:11:10,2019-05-06 15:12:03,53.425s,PASSED
+"waitForElementVisible(findTestObject(""Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)""), 20)",Chrome 73.0.3683.103,,2019-05-06 15:11:25,2019-05-06 15:11:25,0.271s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)""))",Chrome 73.0.3683.103,,2019-05-06 15:11:25,2019-05-06 15:11:26,0.171s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-05-06 15:11:26,2019-05-06 15:11:36,10.033s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/div_Add Constituents""))",Chrome 73.0.3683.103,,2019-05-06 15:11:36,2019-05-06 15:11:36,0.640s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/h2_Add Constituents to Campaign""))",Chrome 73.0.3683.103,,2019-05-06 15:11:36,2019-05-06 15:11:44,7.857s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/span_Action_slds-checkbox--faux""))",Chrome 73.0.3683.103,,2019-05-06 15:11:44,2019-05-06 15:11:45,0.918s,PASSED
+"constName = getText(findTestObject(""Page_Automated Guest List  Salesforce/a_Test Monash constituent""))",Chrome 73.0.3683.103,,2019-05-06 15:11:45,2019-05-06 15:11:47,2.309s,PASSED
+print(constName),Chrome 73.0.3683.103,,2019-05-06 15:11:47,2019-05-06 15:11:47,0.074s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/span_Next""))",Chrome 73.0.3683.103,,2019-05-06 15:11:47,2019-05-06 15:11:48,0.578s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-05-06 15:11:48,2019-05-06 15:11:51,3.047s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/span_Submit""))",Chrome 73.0.3683.103,,2019-05-06 15:11:51,2019-05-06 15:11:52,0.432s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-05-06 15:11:52,2019-05-06 15:12:00,8.026s,PASSED
+"click(findTestObject(""Page_Automated Guest List  Salesforce/a_Automated Test Campaign""))",Chrome 73.0.3683.103,,2019-05-06 15:12:00,2019-05-06 15:12:00,0.552s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-05-06 15:12:00,2019-05-06 15:12:03,3.037s,PASSED
+,,,,,,
+Test Cases/Create Event and Guest list in Zkipster,Chrome 73.0.3683.103,,2019-05-06 15:12:03,2019-05-06 15:13:23,1m - 20.260s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster""))",Chrome 73.0.3683.103,,2019-05-06 15:12:18,2019-05-06 15:12:18,0.262s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-05-06 15:12:18,2019-05-06 15:12:25,7.032s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/lightning-primitive-icon""))",Chrome 73.0.3683.103,,2019-05-06 15:12:25,2019-05-06 15:12:26,0.175s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-05-06 15:12:26,2019-05-06 15:12:33,7.029s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster""))",Chrome 73.0.3683.103,,2019-05-06 15:12:33,2019-05-06 15:12:33,0.159s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-05-06 15:12:33,2019-05-06 15:12:40,7.030s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/lightning-primitive-icon""))",Chrome 73.0.3683.103,,2019-05-06 15:12:40,2019-05-06 15:12:40,0.157s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-05-06 15:12:40,2019-05-06 15:12:47,7.036s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/div_Create Guest Lists In Zkipster""))",Chrome 73.0.3683.103,,2019-05-06 15:12:47,2019-05-06 15:12:47,0.319s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-05-06 15:12:47,2019-05-06 15:12:52,5.027s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/button_Close this window""))",Chrome 73.0.3683.103,,2019-05-06 15:12:52,2019-05-06 15:12:53,0.180s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-05-06 15:12:53,2019-05-06 15:12:56,3.029s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/div_Sync Guests to Zkipster""))",Chrome 73.0.3683.103,,2019-05-06 15:12:56,2019-05-06 15:12:56,0.145s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-05-06 15:12:56,2019-05-06 15:13:01,5.015s,PASSED
+"click(findTestObject(""Page_Automated Test Campaign  Salesforce/lightning-primitive-icon""))",Chrome 73.0.3683.103,,2019-05-06 15:13:01,2019-05-06 15:13:01,0.207s,PASSED
+"navigateToUrl(""https://account.zkipster.com/Login/Login?ReturnUrl=%2fGuests%2fEdit"")",Chrome 73.0.3683.103,,2019-05-06 15:13:01,2019-05-06 15:13:06,4.821s,PASSED
+"setText(findTestObject(""Page_zkipster - Log In/input_Log In_UserName""), ""MonashAdmin1"")",Chrome 73.0.3683.103,,2019-05-06 15:13:06,2019-05-06 15:13:06,0.219s,PASSED
+"setEncryptedText(findTestObject(""Page_zkipster - Log In/input_Log In_Password""), ""B1Kdm3v38+DzKq91AaaXQg=="")",Chrome 73.0.3683.103,,2019-05-06 15:13:06,2019-05-06 15:13:06,0.130s,PASSED
+"click(findTestObject(""Page_zkipster - Log In/input_Log In_login_submit""))",Chrome 73.0.3683.103,,2019-05-06 15:13:06,2019-05-06 15:13:14,7.791s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-05-06 15:13:14,2019-05-06 15:13:19,5.030s,PASSED
+"click(findTestObject(""Page_zkipster - Events/a_Automated Test Campaign""))",Chrome 73.0.3683.103,,2019-05-06 15:13:19,2019-05-06 15:13:21,2.070s,PASSED
+"click(findTestObject(""Page_zkipster - Guest Lists/td_1""))",Chrome 73.0.3683.103,,2019-05-06 15:13:21,2019-05-06 15:13:23,1.704s,PASSED
+"GuestFirstName = getText(findTestObject(""Object Repository/Page_zkipster - Guests/div_Test Monash""))",Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.195s,PASSED
+print(GuestFirstName),Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.006s,PASSED
+"GuestLastName = getText(findTestObject(""Object Repository/Page_zkipster - Guests/div_Rabobank""))",Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.095s,PASSED
+print(GuestLastName),Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.020s,PASSED
+"GuestName = GuestFirstName + "" "" + GuestLastName",Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.004s,PASSED
+print(GuestName),Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.004s,PASSED
+print(constName),Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.003s,PASSED
+if (GuestName == constName),Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.003s,PASSED
+else,Chrome 73.0.3683.103,,2019-05-06 15:13:23,2019-05-06 15:13:23,0.013s,PASSED

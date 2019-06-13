@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Trial,,,2019-05-06 15:56:39,2019-05-06 15:57:02,22.881s,INCOMPLETE
+,,,,,,
+Test Cases/trial1,,,2019-05-06 15:56:43,2019-05-06 15:57:02,18.385s,PASSED
+"name = ""hello dhanu""",,,2019-05-06 15:56:58,2019-05-06 15:57:02,3.909s,PASSED
+,,,,,,
+Test Cases/trial 2,,,2019-05-06 15:57:02,2019-05-06 15:57:02,0.113s,PASSED

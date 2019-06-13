@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Event Management" time="353" tests="4" failures="1" errors="0">
+   <testsuite name="Event Management" tests="4" failures="1" errors="0" time="353" timestamp="2019-05-07 10:39:35" hostname="dche0053 - MU00138930.AD.MONASH.EDU" id="Test Suites/Event Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190507_103837"/>
+         <property name="logFiles" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190507_103837\\execution0.log"/>
+         <property name="attachments" value="\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190507_103837\\1557189925297.png"/>
+         <property name="hostName" value="dche0053 - MU00138930.AD.MONASH.EDU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="49.127.3.180"/>
+         <property name="sessionId" value="388648a9dd7a042201a3139ad68f2076"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login to unicrm" classname="Test Cases/Login to unicrm" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:39:43 - [TEST_CASE][PASSED] - Test Cases/Login to unicrm: Test Cases/Login to unicrm
+
+2019-05-07 10:40:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-07 10:40:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-07 10:40:13 - [MESSAGE][INFO] - User set preference: ['args', '[�disable-notifications]']
+
+2019-05-07 10:40:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-07 10:40:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-07 10:40:39 - [TEST_STEP][PASSED] - navigateToUrl("https://unicrm--engageuat.my.salesforce.com/"): Navigate to 'https://unicrm--engageuat.my.salesforce.com/' successfully
+
+2019-05-07 10:40:45 - [MESSAGE][PASSED] - Navigate to 'https://unicrm--engageuat.my.salesforce.com/' successfully
+
+2019-05-07 10:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login  Salesforce/input_Username_username"), "eventsadmin@monash.edu.engageuat"): Text 'eventsadmin@monash.edu.engageuat' is set on object 'Object Repository/Page_Login  Salesforce/input_Username_username'
+
+2019-05-07 10:40:46 - [MESSAGE][PASSED] - Text 'eventsadmin@monash.edu.engageuat' is set on object 'Object Repository/Page_Login  Salesforce/input_Username_username'
+
+2019-05-07 10:40:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login  Salesforce/input_Password_pw"), "VWz9qj7gPNou+AqqE2IZfg=="): Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2019-05-07 10:40:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2019-05-07 10:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2019-05-07 10:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2019-05-07 10:40:51 - [TEST_STEP][PASSED] - waitForPageLoad(6): Wait for page load successfully
+
+2019-05-07 10:41:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-07 10:41:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-07 10:41:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-07 10:41:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Home  Salesforce/span_Campaigns"), 0): Object 'Object Repository/Page_Home  Salesforce/span_Campaigns' is clickable
+
+2019-05-07 10:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-07 10:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home  Salesforce/span_Campaigns' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create event" classname="Test Cases/Create event" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:41:06 - [TEST_CASE][PASSED] - Test Cases/Create event: Test Cases/Create event
+
+2019-05-07 10:41:20 - [TEST_STEP][PASSED] - navigateToUrl("https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent", STOP_ON_FAILURE): Navigate to 'https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent' successfully
+
+2019-05-07 10:41:22 - [MESSAGE][PASSED] - Navigate to 'https://unicrm--engageuat.lightning.force.com/lightning/o/Campaign/list?filterName=Recent' successfully
+
+2019-05-07 10:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/div_New (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/div_New (1)' is clicked on
+
+2019-05-07 10:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/div_New (1)' is clicked on
+
+2019-05-07 10:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-07 10:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-07 10:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-07 10:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Guest List Containing Campaign Members_slds-radio--faux (1)' is clicked on
+
+2019-05-07 10:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)' is clicked on
+
+2019-05-07 10:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/span_Next (1)' is clicked on
+
+2019-05-07 10:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)"), "Automated Test Campaign"): Text 'Automated Test Campaign' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)'
+
+2019-05-07 10:41:30 - [MESSAGE][PASSED] - Text 'Automated Test Campaign' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__71009a (1)'
+
+2019-05-07 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_Status")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_Status' is clicked on
+
+2019-05-07 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_Status' is clicked on
+
+2019-05-07 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Planned")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Planned' is clicked on
+
+2019-05-07 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Planned' is clicked on
+
+2019-05-07 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_group")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_group' is clicked on
+
+2019-05-07 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_group' is clicked on
+
+2019-05-07 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Alumni")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Alumni' is clicked on
+
+2019-05-07 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Alumni' is clicked on
+
+2019-05-07 10:41:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)"), "21 welington rd"): Text '21 welington rd' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)'
+
+2019-05-07 10:41:31 - [MESSAGE][PASSED] - Text '21 welington rd' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/label_Event Location real (1)'
+
+2019-05-07 10:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Start_date"), "27/06/2019"): Text '27/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start_date'
+
+2019-05-07 10:41:31 - [MESSAGE][PASSED] - Text '27/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start_date'
+
+2019-05-07 10:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Start time (1)"), ""): Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start time (1)'
+
+2019-05-07 10:41:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Start time (1)'
+
+2019-05-07 10:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)"), "30/06/2019"): Text '30/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)'
+
+2019-05-07 10:41:32 - [MESSAGE][PASSED] - Text '30/06/2019' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/End_Date (1)'
+
+2019-05-07 10:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)"), ""): Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)'
+
+2019-05-07 10:41:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/Event_end_time (1)'
+
+2019-05-07 10:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_street (1)"), "street"): Text 'street' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_street (1)'
+
+2019-05-07 10:41:32 - [MESSAGE][PASSED] - Text 'street' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_street (1)'
+
+2019-05-07 10:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_city (1)"), "city"): Text 'city' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_city (1)'
+
+2019-05-07 10:41:32 - [MESSAGE][PASSED] - Text 'city' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_city (1)'
+
+2019-05-07 10:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/event_state (1)"), "state"): Text 'state' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_state (1)'
+
+2019-05-07 10:41:33 - [MESSAGE][PASSED] - Text 'state' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/event_state (1)'
+
+2019-05-07 10:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__4091117a"), "3000"): Text '3000' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4091117a'
+
+2019-05-07 10:41:33 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4091117a'
+
+2019-05-07 10:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/input__4431117a"), "Australia"): Text 'Australia' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4431117a'
+
+2019-05-07 10:41:34 - [MESSAGE][PASSED] - Text 'Australia' is set on object 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/input__4431117a'
+
+2019-05-07 10:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Corporate")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Corporate' is clicked on
+
+2019-05-07 10:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Corporate' is clicked on
+
+2019-05-07 10:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/a_Social")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Social' is clicked on
+
+2019-05-07 10:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/a_Social' is clicked on
+
+2019-05-07 10:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Recently Viewed  Campaigns  Salesforce/button_Save")): Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/button_Save' is clicked on
+
+2019-05-07 10:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Recently Viewed  Campaigns  Salesforce/button_Save' is clicked on
+
+2019-05-07 10:41:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-07 10:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Guest list" classname="Test Cases/Create Guest list" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:41:37 - [TEST_CASE][PASSED] - Test Cases/Create Guest list: Test Cases/Create Guest list
+
+2019-05-07 10:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/a_New (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_New (1)' is clicked on
+
+2019-05-07 10:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_New (1)' is clicked on
+
+2019-05-07 10:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)' is clicked on
+
+2019-05-07 10:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_ERDA Guest List (1)' is clicked on
+
+2019-05-07 10:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/span_Next (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_Next (1)' is clicked on
+
+2019-05-07 10:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/span_Next (1)' is clicked on
+
+2019-05-07 10:41:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automated Test Campaign  Salesforce/input__1362495a (1)"), "Automated Guest List"): Text 'Automated Guest List' is set on object 'Object Repository/Page_Automated Test Campaign  Salesforce/input__1362495a (1)'
+
+2019-05-07 10:41:55 - [MESSAGE][PASSED] - Text 'Automated Guest List' is set on object 'Object Repository/Page_Automated Test Campaign  Salesforce/input__1362495a (1)'
+
+2019-05-07 10:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/button_Save (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Save (1)' is clicked on
+
+2019-05-07 10:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Save (1)' is clicked on
+
+2019-05-07 10:41:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-05-07 10:42:05 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Guests" classname="Test Cases/Add Guests" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:42:06 - [TEST_CASE][PASSED] - Test Cases/Add Guests: Test Cases/Add Guests
+
+2019-05-07 10:42:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)"), 20): Object 'Object Repository/Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)' is visible
+
+2019-05-07 10:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)' is visible
+
+2019-05-07 10:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)' is clicked on
+
+2019-05-07 10:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/a_Automated Guest List (1)' is clicked on
+
+2019-05-07 10:42:29 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2019-05-07 10:42:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-07 10:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/div_Add Constituents")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/div_Add Constituents' is clicked on
+
+2019-05-07 10:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/div_Add Constituents' is clicked on
+
+2019-05-07 10:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/h2_Add Constituents to Campaign")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/h2_Add Constituents to Campaign' is clicked on
+
+2019-05-07 10:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/h2_Add Constituents to Campaign' is clicked on
+
+2019-05-07 10:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/span_Action_slds-checkbox--faux")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Action_slds-checkbox--faux' is clicked on
+
+2019-05-07 10:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Action_slds-checkbox--faux' is clicked on
+
+2019-05-07 10:42:42 - [TEST_STEP][PASSED] - constName = getText(findTestObject("Page_Automated Guest List  Salesforce/a_Test Monash constituent")): Text of object 'Object Repository/Page_Automated Guest List  Salesforce/a_Test Monash constituent' is: 'James Bond'
+
+2019-05-07 10:42:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Automated Guest List  Salesforce/a_Test Monash constituent' is: 'James Bond'
+
+2019-05-07 10:42:44 - [TEST_STEP][PASSED] - print(constName): null
+
+2019-05-07 10:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/span_Next")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Next' is clicked on
+
+2019-05-07 10:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Next' is clicked on
+
+2019-05-07 10:42:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-05-07 10:42:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-07 10:42:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/span_Submit")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Submit' is clicked on
+
+2019-05-07 10:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/span_Submit' is clicked on
+
+2019-05-07 10:42:47 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-05-07 10:42:55 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-05-07 10:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Guest List  Salesforce/a_Automated Test Campaign")): Object: 'Object Repository/Page_Automated Guest List  Salesforce/a_Automated Test Campaign' is clicked on
+
+2019-05-07 10:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Guest List  Salesforce/a_Automated Test Campaign' is clicked on
+
+2019-05-07 10:42:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-07 10:42:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Event and Guest list in Zkipster" classname="Test Cases/Create Event and Guest list in Zkipster" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create Event and Guest list in Zkipster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-07 10:42:59 - [TEST_CASE][FAILED] - Test Cases/Create Event and Guest list in Zkipster: Test Cases/Create Event and Guest list in Zkipster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more
+
+
+2019-05-07 10:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster' is clicked on
+
+2019-05-07 10:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster' is clicked on
+
+2019-05-07 10:43:20 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-05-07 10:43:27 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-05-07 10:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:43:27 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-05-07 10:43:34 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-05-07 10:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster' is clicked on
+
+2019-05-07 10:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Event In Zkipster' is clicked on
+
+2019-05-07 10:43:35 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-05-07 10:43:42 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-05-07 10:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:43:42 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-05-07 10:43:49 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-05-07 10:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/div_Create Guest Lists In Zkipster")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Guest Lists In Zkipster' is clicked on
+
+2019-05-07 10:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Create Guest Lists In Zkipster' is clicked on
+
+2019-05-07 10:43:50 - [TEST_STEP][PASSED] - delay(9): Delayed 9 second(s)
+
+2019-05-07 10:43:59 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2019-05-07 10:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/button_Close this window")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Close this window' is clicked on
+
+2019-05-07 10:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/button_Close this window' is clicked on
+
+2019-05-07 10:43:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-07 10:44:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-07 10:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/div_Sync Guests to Zkipster")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Sync Guests to Zkipster' is clicked on
+
+2019-05-07 10:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/div_Sync Guests to Zkipster' is clicked on
+
+2019-05-07 10:44:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-05-07 10:44:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-07 10:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automated Test Campaign  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automated Test Campaign  Salesforce/lightning-primitive-icon' is clicked on
+
+2019-05-07 10:44:13 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-05-07 10:44:19 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-07 10:44:19 - [TEST_STEP][PASSED] - navigateToUrl("https://account.zkipster.com/Login/Login?ReturnUrl=%2fGuests%2fEdit"): Navigate to 'https://account.zkipster.com/Login/Login?ReturnUrl=%2fGuests%2fEdit' successfully
+
+2019-05-07 10:44:24 - [MESSAGE][PASSED] - Navigate to 'https://account.zkipster.com/Login/Login?ReturnUrl=%2fGuests%2fEdit' successfully
+
+2019-05-07 10:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_zkipster - Log In/input_Log In_UserName"), "MonashAdmin1"): Text 'MonashAdmin1' is set on object 'Object Repository/Page_zkipster - Log In/input_Log In_UserName'
+
+2019-05-07 10:44:25 - [MESSAGE][PASSED] - Text 'MonashAdmin1' is set on object 'Object Repository/Page_zkipster - Log In/input_Log In_UserName'
+
+2019-05-07 10:44:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_zkipster - Log In/input_Log In_Password"), "B1Kdm3v38+DzKq91AaaXQg=="): Text ****** has been set on object 'Object Repository/Page_zkipster - Log In/input_Log In_Password'
+
+2019-05-07 10:44:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_zkipster - Log In/input_Log In_Password'
+
+2019-05-07 10:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_zkipster - Log In/input_Log In_login_submit")): Object: 'Object Repository/Page_zkipster - Log In/input_Log In_login_submit' is clicked on
+
+2019-05-07 10:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_zkipster - Log In/input_Log In_login_submit' is clicked on
+
+2019-05-07 10:44:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-07 10:44:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-07 10:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_zkipster - Events/a_Automated Test Campaign")): Object: 'Object Repository/Page_zkipster - Events/a_Automated Test Campaign' is clicked on
+
+2019-05-07 10:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_zkipster - Events/a_Automated Test Campaign' is clicked on
+
+2019-05-07 10:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_zkipster - Guest Lists/td_1")): Object: 'Object Repository/Page_zkipster - Guest Lists/td_1' is clicked on
+
+2019-05-07 10:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_zkipster - Guest Lists/td_1' is clicked on
+
+2019-05-07 10:44:46 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-05-07 10:44:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-05-07 10:44:53 - [TEST_STEP][FAILED] - GuestFirstName = getText(findTestObject("Page_zkipster - Guests/div_Test Monash")): GuestFirstName = getText(findTestObject("Page_zkipster - Guests/div_Test Monash")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more
+
+
+2019-05-07 10:45:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-07 10:45:26 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more
+)
+[[ATTACHMENT|\\\\ad.monash.edu\\home\\User080\\dche0053\\Desktop\\Automation PE\\testdn\\Reports\\Event Management\\20190507_103837\\1557189925297.png]]
+
+2019-05-07 10:45:26 - [MESSAGE][FAILED] - GuestFirstName = getText(findTestObject("Page_zkipster - Guests/div_Test Monash")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-05-07 10:42:59 - [TEST_CASE][FAILED] - Test Cases/Create Event and Guest list in Zkipster: Test Cases/Create Event and Guest list in Zkipster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-07 10:39:35 - [TEST_SUITE][FAILED] - Event Management: Test Cases/Create Event and Guest list in Zkipster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-07 10:39:35 - [TEST_SUITE][FAILED] - Event Management: Test Cases/Create Event and Guest list in Zkipster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_zkipster - Guests/div_Test Monash'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Create Event and Guest list in Zkipster.run(Create Event and Guest list in Zkipster:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557189518097.run(TempTestSuite1557189518097.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_zkipster - Guests/div_Test Monash' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Automated Guest List'])[2]/following::div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1557108039023.run(Script1557108039023.groovy:62)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

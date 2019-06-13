@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Guests</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a76747b6-2e23-4c3f-bbd1-1c8344595c1d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8aa9793f-e740-4fa0-a583-7c4cf0ef37cb</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b142ff4-fa1b-4968-a6a4-f546b06696de</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40af5614-0dd5-4291-a0dd-2a7ab20d0c42</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab0cca66-02c2-4792-b317-c7288acf2769</id>
+      <masked>false</masked>
+      <name>variable_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81c44b60-e1e0-4ae9-9022-6373e256c55f</id>
+      <masked>false</masked>
+      <name>variable_3</name>
+   </variable>
+</TestCaseEntity>
